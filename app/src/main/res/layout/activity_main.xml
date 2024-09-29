@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/start"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:text="start "
+            android:onClick="startCount"
+            android:textSize="70dp"/>
+
+        <TextView
+            android:id="@+id/count"
+            android:background="#CDC1FF"
+            android:layout_marginVertical="70dp"
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:textAlignment="center"
+            android:text="00:00"
+            android:textSize="100dp"/>
+
+
+        <Button
+            android:id="@+id/stop"
+            android:onClick="stopCount"
+            android:layout_width="230dp"
+            android:layout_height="90dp"
+            android:text="stop"
+            android:textSize="60dp"/>
+
+
+        <Button
+            android:id="@+id/reset"
+            android:onClick="reset"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:text="Reset"
+            android:layout_marginTop="70dp"
+            android:textSize="30dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/start"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="start "
+        android:onClick="startCount"
+        android:textSize="70dp"/>
+
+    <TextView
+        android:id="@+id/count"
+        android:background="#CDC1FF"
+        android:layout_marginVertical="70dp"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:textAlignment="center"
+        android:text="00:00"
+        android:textSize="100dp"/>
+
+
+    <Button
+        android:id="@+id/stop"
+        android:onClick="stopCount"
+        android:layout_width="230dp"
+        android:layout_height="90dp"
+        android:text="stop"
+        android:textSize="60dp"/>
+
+
+    <Button
+        android:id="@+id/reset"
+        android:onClick="reset"
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:text="Reset"
+        android:layout_marginTop="70dp"
+        android:textSize="30dp"/>
+
+
+</LinearLayout>
+
+</LinearLayout>
